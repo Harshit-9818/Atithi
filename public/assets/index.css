@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Lexend", sans-serif;
+  --color-carnation: #ef4f5f;
+  --color-comet: #596378;
+  --color-raven: #767c8f;
+  --color-chablis: #ffedef;
+  --color-ebony-clay: #293142;
+  --color-athens-gray: #e6e9ef;
+}
