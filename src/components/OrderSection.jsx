@@ -15,6 +15,18 @@ const OrderSection = () => {
             <img src={TOMATO_IMG_URL} alt="Tomato-Image" className="w-12 absolute top-96 left-32"/>
             <img src={TOMATO_IMG_URL} alt="Tomato-Image" className="w-12 absolute top-10 right-32 rotate-45"/>
             <img src={LEAVES_IMG_URL} alt="Leaves-Image" className="w-12 absolute -top-38 left-[30%]"/>
+            <div className="w-[30%] text-center m-auto flex items-center justify-center flex-col mt-56">
+                <span className="text-carnation text-5xl font-medium leading-14">Better food for more people</span>
+                <span className="text-comet text-xl mt-8 w-100">For over a decade, we've enabled our customers to discover new tastes, delivered right to their doorstep</span>
+            </div>
+            <div className="rounded-4xl bg-white shadow-2xl w-[53%] m-auto px-7 py-6 flex items-center mt-40">
+                <div className="flex items-center justify-center gap-3 flex-1 border-r border-gray-200 pr-5">
+                    <div className="flex flex-col">
+                        <span className="text-comet text-3xl font-bold">3,00,000+</span>
+                        <span className="text-raven text-lg">Restaraunts</span>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
