@@ -1,4 +1,4 @@
-import { BURGER_IMG_URL, LEAVES_IMG_URL, LEFT_SIDE_LINE, MOMOS_IMG_URL, PIZZA_IMG_URL, RIGHT_SIDE_LINE, TOMATO_IMG_URL } from "../utils/app.constants";
+import { BURGER_IMG_URL, CITIES_IMG_URL, LEAVES_IMG_URL, LEFT_SIDE_LINE, MOMOS_IMG_URL, ORDER_DELIVERED_IMG_URL, PIZZA_IMG_URL, RESTAURANT_IMG_URL, RIGHT_SIDE_LINE, TOMATO_IMG_URL } from "../utils/app.constants";
 
 const OrderSection = () => {
     return (
@@ -19,12 +19,27 @@ const OrderSection = () => {
                 <span className="text-carnation text-5xl font-medium leading-14">Better food for more people</span>
                 <span className="text-comet text-xl mt-8 w-100">For over a decade, we've enabled our customers to discover new tastes, delivered right to their doorstep</span>
             </div>
-            <div className="rounded-4xl bg-white shadow-2xl w-[53%] m-auto px-7 py-6 flex items-center mt-40">
+            <div className="rounded-4xl bg-white shadow-2xl w-[60%] m-auto px-7 py-6 flex items-center mt-40">
                 <div className="flex items-center justify-center gap-3 flex-1 border-r border-gray-200 pr-5">
                     <div className="flex flex-col">
                         <span className="text-comet text-3xl font-bold">3,00,000+</span>
                         <span className="text-raven text-lg">Restaraunts</span>
                     </div>
+                    <img src={RESTAURANT_IMG_URL} alt="Restaraunt-Image" className="w-16 h-14"/>
+                </div>
+                <div className="flex items-center justify-center gap-3 flex-1 border-r border-gray-200 pr-5">
+                    <div className="flex flex-col">
+                        <span className="text-comet text-3xl font-bold">800+</span>
+                        <span className="text-raven text-lg">Cities</span>
+                    </div>
+                    <img src={CITIES_IMG_URL} alt="Cities-Image" className="w-9 h-12"/>
+                </div>
+                <div className="flex items-center justify-center gap-3 flex-1 border-r border-gray-200 pr-5">
+                    <div className="flex flex-col">
+                        <span className="text-comet text-3xl font-bold">3 billion+</span>
+                        <span className="text-raven text-lg">Orders Delivered</span>
+                    </div>
+                    <img src={ORDER_DELIVERED_IMG_URL} alt="Order-delivered-Image" className="w-15 h-13"/>
                 </div>
             </div>
         </div>
