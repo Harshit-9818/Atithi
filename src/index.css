@@ -9,3 +9,6 @@
     --color-ebony-clay: #293142;
     --color-athens-gray: #e6e9ef;
 }
+.no-scrollbar{
+  scrollbar-width: none;
+}
