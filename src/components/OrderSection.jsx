@@ -1,8 +1,7 @@
 import { BURGER_IMG_URL, CITIES_IMG_URL, LEAVES_IMG_URL, LEFT_SIDE_LINE, MOMOS_IMG_URL, ORDER_DELIVERED_IMG_URL, PIZZA_IMG_URL, RESTAURANT_IMG_URL, RIGHT_SIDE_LINE, TOMATO_IMG_URL } from "../utils/app.constants";
-
 const OrderSection = () => {
     return (
-        <div className="h-148 relative ">
+        <div className="h-141 relative ">
             <div className="absolute left-0 -top-44 h-auto w-[70%] translate-x-[-70%]">
                 <img src={LEFT_SIDE_LINE} alt="left-line" className="h-auto w-full" />
                 </div>

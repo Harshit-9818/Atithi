@@ -1,10 +1,11 @@
 import { CALENDAR_IMG_URL, COLLECTIONS_IMG_URL, FOOD_ON_TRAIN_IMG_URL, GIFT_CARDS_IMG_URL, GOURMET_IMG_URL, HEALTHY_IMG_URL, OFFERS_IMG_URL, PARTY_IMG_URL, PHONE_IMG_URL, VEG_MODE_IMG_URL } from "../utils/app.constants";
 import FeaturesCard from "./FeaturesCard";
-
+import Snowfall from "react-snowfall";
 const FeatureSection = () => {
     return (
         <div className="h-120 bg-linear-to-b from-chablis to-white">
             <div className="relative text-center flex flex-col items-center justify-center py-28">
+                <Snowfall color="#82C3D9"/>
                 <span className="text-carnation text-[48px] font-bold leading-tight">
                     What's waiting for you <br /> on the app?
                 </span>
