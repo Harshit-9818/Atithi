@@ -1,4 +1,5 @@
 import FeatureSection from "./components/FeatureSection";
+import Gold from "./components/Gold";
 import HeroSection from "./components/HeroSection";
 import OrderSection from "./components/OrderSection";
 import Snowfall from "react-snowfall";
@@ -9,6 +10,7 @@ const App = () => {
       <HeroSection />
       <OrderSection />
       <FeatureSection />
+      <Gold/>
     </div>
   );
 }
