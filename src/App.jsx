@@ -1,3 +1,4 @@
+import Download from "./components/Download";
 import FeatureSection from "./components/FeatureSection";
 import Gold from "./components/Gold";
 import HeroSection from "./components/HeroSection";
@@ -10,6 +11,7 @@ const App = () => {
       <OrderSection />
       <FeatureSection />
       <Gold/>
+      <Download />
     </div>
   );
 }
