@@ -13,9 +13,9 @@ const Gold = () => {
             </spn>
         </div>
         <div className="mt-6 flex items-center justify-center gap-2">
-            <GoldStar />
+            <span className="text-lg bg-linear-to-r from-[#8C6115] via-[#E9c789] to-[#996F25] bg-clip-text text-center text-transparent">&#9733;</span>
             <span className="text-2xl font-medium tracking-[3px]">GOLD BENEFITS</span>
-            <GoldStar />
+            <span className="text-lg bg-linear-to-r from-[#8C6115] via-[#E9c789] to-[#996F25] bg-clip-text text-center text-transparent">&#9733;</span>
         </div>
     </div>
     );
