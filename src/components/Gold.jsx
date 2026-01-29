@@ -1,4 +1,5 @@
 import { GOLD_IMG_URL } from "../utils/app.constants";
+import GoldStar from "./GoldStar";
 const Gold = () => {
     return (
     <div className="bg-black relative py-60 mt-80 text-white flex items-center justify-center flex-col">
@@ -10,6 +11,11 @@ const Gold = () => {
             <spn>
                 Program for Food Lovers
             </spn>
+        </div>
+        <div className="mt-6 flex items-center justify-center gap-2">
+            <GoldStar />
+            <span className="text-2xl font-medium tracking-[3px]">GOLD BENEFITS</span>
+            <GoldStar />
         </div>
     </div>
     );
