@@ -6,7 +6,7 @@ const Download = () => {
         <div>
             <img src={PHONE_IMG_URL} className="right-40 w-40 h-40"/>
             <div>
-                <img src={QR_CODE_IMG_URL} className="w-40 h-40"/>
+                <img src={QR_CODE_IMG_URL} className="right-40 w-40 h-40"/>
                 <span>Scan the QR code to <br/></span>
                 <span className="text-xl mt-4">Download the App</span>
             </div>
