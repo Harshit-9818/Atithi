@@ -5,7 +5,7 @@ const Download = () => {
     <div className="pt-24 gap-26 flex items-center justify-center bg-linear-to-b from-[#FFEDEF] to-[#FFDBE0]">
       <div className="flex flex-col">
         <span className="text-[2.5rem] font-bold">Download the app now!</span>
-        <span className="text-2xl text-gray-600">Experience seamless online ordering only on the Atithi app</span>
+        <span className="text-2xl text-gray-600">Experience seamless online ordering <br /> only on the Atithi app</span>
         <div className="flex gap-4 mt-8">
           <img src={PLAY_STORE_URL} alt="play-store-image" className="w-47 h-14" />
           <img src={APP_STORE_URL} alt="app-store-image" className="w-41.75 h-14" />
